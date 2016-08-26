@@ -285,7 +285,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="q8d-9v-bXX">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">In 2015, the city had an estimated population density of 28,053 people per square mile (10,756/km²), rendering it the most densely populated of all municipalities housing over 100,000 residents in the United States; however, several small cities (of fewer than 100,000) in adjacent Hudson County, New Jersey are more dense overall, as per the 2000 Census. Geographically co-extensive with New York County, the borough of Manhattan's 2015 population density of 72,033 people per square mile (27,812/km²) makes it the highest of any county in the United States and higher than the density of any individual American city.</mutableString>
+                                <string key="text">In 2015, the city had an estimated population density of 28,053 people per square mile (10,756/km²), rendering it the most densely populated of all municipalities housing over 100,000 residents in the United States; however, several small cities (of fewer than 100,000) in adjacent Hudson County, New Jersey are more dense overall, as per the 2000 Census. Geographically co-extensive with New York County, the borough of Manhattan's 2015 population density of 72,033 people per square mile (27,812/km²) makes it the highest of any county in the United States and higher than the density of any individual American city.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -331,7 +331,7 @@
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="omL-Rc-1St">
                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                                <mutableString key="text">In 2015, the city had an estimated population density of 28,053 people per square mile (10,756/km²), rendering it the most densely populated of all municipalities housing over 100,000 residents in the United States; however, several small cities (of fewer than 100,000) in adjacent Hudson County, New Jersey are more dense overall, as per the 2000 Census. Geographically co-extensive with New York County, the borough of Manhattan's 2015 population density of 72,033 people per square mile (27,812/km²) makes it the highest of any county in the United States and higher than the density of any individual American city.</mutableString>
+                                                <string key="text">In 2015, the city had an estimated population density of 28,053 people per square mile (10,756/km²), rendering it the most densely populated of all municipalities housing over 100,000 residents in the United States; however, several small cities (of fewer than 100,000) in adjacent Hudson County, New Jersey are more dense overall, as per the 2000 Census. Geographically co-extensive with New York County, the borough of Manhattan's 2015 population density of 72,033 people per square mile (27,812/km²) makes it the highest of any county in the United States and higher than the density of any individual American city.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -381,17 +381,17 @@
                                                 <exclude reference="2rj-np-ktU"/>
                                             </mask>
                                             <mask key="constraints">
-                                                <exclude reference="BjY-Cd-t9e"/>
-                                                <exclude reference="ZvD-5L-jMf"/>
-                                                <exclude reference="g7t-Xt-Dof"/>
-                                                <exclude reference="hmH-W6-4Yr"/>
-                                                <exclude reference="sNh-R4-Pxn"/>
                                                 <exclude reference="MPW-mZ-6d4"/>
                                                 <exclude reference="cbL-NL-UIa"/>
+                                                <exclude reference="hmH-W6-4Yr"/>
+                                                <exclude reference="sNh-R4-Pxn"/>
                                                 <exclude reference="39T-3F-kyo"/>
                                                 <exclude reference="hVQ-z0-2B6"/>
                                                 <exclude reference="qzj-4L-mQh"/>
                                                 <exclude reference="xT3-SX-VrR"/>
+                                                <exclude reference="BjY-Cd-t9e"/>
+                                                <exclude reference="ZvD-5L-jMf"/>
+                                                <exclude reference="g7t-Xt-Dof"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=compact">
@@ -401,17 +401,17 @@
                                                 <include reference="2rj-np-ktU"/>
                                             </mask>
                                             <mask key="constraints">
-                                                <include reference="BjY-Cd-t9e"/>
-                                                <include reference="ZvD-5L-jMf"/>
-                                                <include reference="g7t-Xt-Dof"/>
-                                                <include reference="hmH-W6-4Yr"/>
-                                                <include reference="sNh-R4-Pxn"/>
                                                 <include reference="MPW-mZ-6d4"/>
                                                 <include reference="cbL-NL-UIa"/>
+                                                <include reference="hmH-W6-4Yr"/>
+                                                <include reference="sNh-R4-Pxn"/>
                                                 <include reference="39T-3F-kyo"/>
                                                 <include reference="hVQ-z0-2B6"/>
                                                 <include reference="qzj-4L-mQh"/>
                                                 <include reference="xT3-SX-VrR"/>
+                                                <include reference="BjY-Cd-t9e"/>
+                                                <include reference="ZvD-5L-jMf"/>
+                                                <include reference="g7t-Xt-Dof"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -451,14 +451,14 @@
                                         <exclude reference="HZK-AT-bc8"/>
                                     </mask>
                                     <mask key="constraints">
+                                        <exclude reference="5Pg-Tj-ffz"/>
+                                        <exclude reference="XJD-a6-EN9"/>
                                         <exclude reference="4lg-YB-mOj"/>
                                         <exclude reference="Bzt-7G-l1x"/>
                                         <exclude reference="PpP-P2-0NS"/>
                                         <exclude reference="W4x-Wz-7rn"/>
                                         <exclude reference="hJ8-Ph-zjo"/>
                                         <exclude reference="sv3-Yx-dGI"/>
-                                        <exclude reference="5Pg-Tj-ffz"/>
-                                        <exclude reference="XJD-a6-EN9"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact">
@@ -467,14 +467,14 @@
                                         <include reference="HZK-AT-bc8"/>
                                     </mask>
                                     <mask key="constraints">
+                                        <include reference="5Pg-Tj-ffz"/>
+                                        <include reference="XJD-a6-EN9"/>
                                         <include reference="4lg-YB-mOj"/>
                                         <include reference="Bzt-7G-l1x"/>
                                         <include reference="PpP-P2-0NS"/>
                                         <include reference="W4x-Wz-7rn"/>
                                         <include reference="hJ8-Ph-zjo"/>
                                         <include reference="sv3-Yx-dGI"/>
-                                        <include reference="5Pg-Tj-ffz"/>
-                                        <include reference="XJD-a6-EN9"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -512,6 +512,8 @@
                                 <exclude reference="4Wo-mB-YKe"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="AEW-C5-NSk"/>
+                                <exclude reference="aM8-n8-eB0"/>
                                 <exclude reference="b4Q-Dl-Loh"/>
                                 <exclude reference="nuz-fb-TRO"/>
                                 <exclude reference="OC1-1D-Dgf"/>
@@ -523,14 +525,12 @@
                                 <exclude reference="xSD-Qv-YbU"/>
                                 <exclude reference="Ei5-Mg-5gN"/>
                                 <exclude reference="OcS-7T-IpH"/>
-                                <exclude reference="8EA-2O-zAG"/>
-                                <exclude reference="V0J-sc-EQM"/>
-                                <exclude reference="y9h-9n-y6b"/>
                                 <exclude reference="RO5-6u-rZI"/>
                                 <exclude reference="ZfQ-iw-ht4"/>
                                 <exclude reference="jBC-gL-g8J"/>
-                                <exclude reference="AEW-C5-NSk"/>
-                                <exclude reference="aM8-n8-eB0"/>
+                                <exclude reference="8EA-2O-zAG"/>
+                                <exclude reference="V0J-sc-EQM"/>
+                                <exclude reference="y9h-9n-y6b"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -538,10 +538,10 @@
                                 <include reference="4Wo-mB-YKe"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="AEW-C5-NSk"/>
                                 <include reference="RO5-6u-rZI"/>
                                 <include reference="ZfQ-iw-ht4"/>
                                 <include reference="jBC-gL-g8J"/>
-                                <include reference="AEW-C5-NSk"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -554,6 +554,7 @@
                                 <include reference="q8d-9v-bXX"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="aM8-n8-eB0"/>
                                 <include reference="b4Q-Dl-Loh"/>
                                 <include reference="nuz-fb-TRO"/>
                                 <include reference="OC1-1D-Dgf"/>
@@ -568,7 +569,6 @@
                                 <include reference="8EA-2O-zAG"/>
                                 <include reference="V0J-sc-EQM"/>
                                 <include reference="y9h-9n-y6b"/>
-                                <include reference="aM8-n8-eB0"/>
                             </mask>
                         </variation>
                     </view>
